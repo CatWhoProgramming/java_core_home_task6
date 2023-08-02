@@ -25,6 +25,8 @@ public enum Vehicles {
         this.price = price;
     }
     public abstract String getColor();
+
+    @Override
     public String toString() {
         return super.toString() +" " + price + " " + getColor();
     }
