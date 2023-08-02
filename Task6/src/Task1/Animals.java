@@ -10,7 +10,8 @@ public enum Animals {
         this.age = age;
     }
 
+    @Override
     public String toString() {
-        return super.toString() +" " + age;
+        return super.toString() + " " + age;
     }
 }
